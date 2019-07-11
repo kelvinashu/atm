@@ -9,7 +9,7 @@ import za.co.discovery.entity.Atm;
 import za.co.discovery.repository.AtmRepository;
 
 @Service
-public class WithdrawalServiceImpl implements AtmService {
+public class AtmServiceImpl implements AtmService {
 
 	@Autowired
 	private AtmRepository atmRepo;
